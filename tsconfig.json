@@ -20,9 +20,9 @@
     "incremental": true,
     "jsxImportSource": "@emotion/react"
   },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
   "rules": {
     "no-unused-variable": true
-  },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  }
 }

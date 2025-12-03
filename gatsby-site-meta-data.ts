@@ -45,12 +45,8 @@ export default {
    */
   featured: [
     {
-      title: 'category1',
-      category: 'featured-category1',
-    },
-    {
-      title: 'category2',
-      category: 'featured-category2',
+      title: 'Frontend',
+      category: 'Frontend',
     },
   ],
 
