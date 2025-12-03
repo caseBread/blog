@@ -2,10 +2,10 @@ export default {
   /**
    * basic Information
    */
-  title: `jeong-min.com`,
-  description: `개발자 단민`,
+  title: `caseBread`,
+  description: `개발자 김건우`,
   language: `ko`,
-  siteUrl: `https://jeong-min.com/`,
+  siteUrl: `https://effervescent-kataifi-08bcb7.netlify.app`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
 
   /**
@@ -13,7 +13,7 @@ export default {
    */
   comments: {
     utterances: {
-      repo: ``, //`danmin20/danmin-gatsby-blog`,
+      repo: `caseBread/blog`, //`danmin20/danmin-gatsby-blog`,
     },
   },
 
@@ -21,22 +21,22 @@ export default {
    * introduce yourself
    */
   author: {
-    name: `이정민`,
-    nickname: `단민`,
-    stack: ['Frontend', 'React', 'Typescript'],
+    name: `김건우`,
+    nickname: `caseBread`,
+    stack: ['Frontend', 'Next.js', 'Typescript'],
     bio: {
-      email: `ljm991108@gmail.com`,
-      residence: 'Seoul, South Korea',
-      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2018.03-2022.02)',
+      email: `kgu0515@gmail.com`,
+      residence: 'YongIn, South Korea',
+      bachelorDegree: 'Kyunghee Univ. Computer Engineering (2021.09-ing)',
     },
     social: {
-      github: `https://github.com/danmin20`,
-      linkedIn: `https://www.linkedin.com/in/jeonming-lee/`,
-      resume: `https://www.figma.com/file/dtkCl6G7G5DVe18DN2LWny/%EC%9D%B4%EC%A0%95%EB%AF%BC-%EC%9D%B4%EB%A0%A5%EC%84%9C?node-id=0%3A1`,
+      github: `https://github.com/caseBread`,
+      linkedIn: `https://www.linkedin.com/in/quw/`,
+      resume: `https://drive.google.com/file/d/1NwWOXW4zOFzW8_8-ALDOY_d7c2AlcK84/view?usp=sharing`,
     },
     dropdown: {
-      tistory: 'https://danminblog.tistory.com/',
-      velog: 'https://velog.io/@danmin20',
+      tistory: 'https://ohoweht.tistory.com/',
+      velog: '',
     },
   },
 
@@ -60,27 +60,35 @@ export default {
   timestamps: [
     {
       category: 'Career',
-      date: '2022.01.04 - NOW',
-      en: 'A Corp.',
-      kr: 'A 회사',
-      info: 'A 팀',
-      link: '',
-    },
-    {
-      category: 'Career',
-      date: '2021.01.04 - 2022.01.04',
-      en: 'B Corp.',
-      kr: 'B 회사',
-      info: 'B 팀',
+      date: '2023.03.14 - 2025.06.20',
+      en: '넛지헬스케어(주)',
+      kr: '',
+      info: '프론트엔드 팀',
       link: '',
     },
     {
       category: 'Activity',
-      date: '2023.07 - NOW',
-      en: 'Community',
-      kr: '커뮤니티',
-      info: 'IT 커뮤니티',
-      link: '',
+      date: '2025.08 - ING',
+      en: 'AUSG',
+      kr: '아우쓱',
+      info: '클라우드 동아리',
+      link: 'https://ausg.me/',
+    },
+    {
+      category: 'Activity',
+      date: '2025.06 - 2025.08',
+      en: 'KUSITHMS',
+      kr: '큐시즘',
+      info: 'IT 연합동아리',
+      link: 'https://www.kusitms.com/',
+    },
+    {
+      category: 'Activity',
+      date: '2025.06 - 2025.08',
+      en: 'DND',
+      kr: '',
+      info: 'IT 연합동아리',
+      link: 'https://dnd.ac/',
     },
   ],
 

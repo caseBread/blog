@@ -36,7 +36,7 @@ export const Wrapper = styled.div`
   }
 
   .gatsby-image-wrapper {
-    position: absolute;
+    position: absolute !important;
     right: 30px;
     top: -100px;
     width: 300px;
