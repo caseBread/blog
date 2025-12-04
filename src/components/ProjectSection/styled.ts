@@ -37,6 +37,11 @@ export const Wrapper = styled.div`
         display: flex;
         margin-bottom: 10px;
 
+        .tech-stack-title {
+          padding: 5px 7px 5px 7px;
+          font-weight: 700;
+        }
+
         .tech {
           background-color: var(--chip-background-color);
           border-radius: 10px;

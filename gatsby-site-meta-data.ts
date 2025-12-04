@@ -106,7 +106,7 @@ export default {
   projects: [
     {
       title: 'Portfolio',
-      description: '포트폴리오1',
+      description: '어쩌고저쩌고어쩌고저쩌고\n어쩌고저쩌고',
       techStack: ['React', 'Next.js', 'Typescript'],
       thumbnailUrl: 'venom-controller.png', // Path to your in the 'assets' folder
       links: {

@@ -1,75 +1,36 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
-import Bio from '../components/Bio';
-import MainBanner from '../components/MainBanner';
 import ProjectSection from '../components/ProjectSection';
 import Seo from '../components/Seo';
-import Timestamps from '../components/Timestamps';
 import Layout from '../layout';
-import { SiteMetadata, Timestamp } from '../type';
+import { SiteMetadata } from '../type';
 
-type AboutProps = {
+type PortfolioProps = {
   data: {
     site: { siteMetadata: SiteMetadata };
   };
   location: Location;
 };
 
-const About: React.FC<AboutProps> = ({ location, data }) => {
+const Portfolio: React.FC<PortfolioProps> = ({ location, data }) => {
   const metaData = data.site.siteMetadata;
-  const { author, timestamps, projects } = metaData;
-
-  const stamps = timestamps.reduce((acc, cur) => {
-    return {
-      ...acc,
-      [cur.category]: [...(acc[cur.category] || []), cur],
-    };
-  }, {} as Record<string, Timestamp[]>);
+  const { projects } = metaData;
 
   return (
     <Layout location={location}>
       <Seo title='개발자 김건우 | Portfolio' />
-      <MainBanner author={author} />
       <ProjectSection projects={projects} />
     </Layout>
   );
 };
 
-export default About;
+export default Portfolio;
 
 export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        language
-        author {
-          name
-          nickname
-          stack
-          bio {
-            email
-            residence
-            bachelorDegree
-          }
-          social {
-            github
-            linkedIn
-            resume
-          }
-          dropdown {
-            velog
-            tistory
-          }
-        }
-        timestamps {
-          category
-          date
-          en
-          kr
-          info
-          link
-        }
         projects {
           title
           description

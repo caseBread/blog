@@ -28,6 +28,7 @@ const ProjectSection: React.FC<ProjectSectionProps> = ({ projects }) => {
 
             {project.techStack && (
               <div className='tech-stack'>
+                <div className='tech-stack-title'>기술스택</div>
                 {project.techStack.map((tech, index) => (
                   <div key={index} className='tech'>
                     {tech}
