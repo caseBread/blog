@@ -39,9 +39,9 @@ const Header: React.FC<HeaderProps> = ({ title, location }) => {
             guestbook
           </S.MenuLink> */}
           {/* TODO : playground페이지 내용 추가 */}
-          <S.MenuLink to='/playground' isselected={(pathname === '/playground').toString()}>
+          {/* <S.MenuLink to='/playground' isselected={(pathname === '/playground').toString()}>
             playground
-          </S.MenuLink>
+          </S.MenuLink> */}
         </S.Menu>
       </S.Header>
     </S.Wrapper>
