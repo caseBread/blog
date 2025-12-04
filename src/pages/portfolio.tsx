@@ -3,6 +3,7 @@ import React from 'react';
 
 import Bio from '../components/Bio';
 import MainBanner from '../components/MainBanner';
+import ProjectSection from '../components/ProjectSection';
 import Seo from '../components/Seo';
 import Timestamps from '../components/Timestamps';
 import Layout from '../layout';
@@ -17,7 +18,7 @@ type AboutProps = {
 
 const About: React.FC<AboutProps> = ({ location, data }) => {
   const metaData = data.site.siteMetadata;
-  const { author, timestamps } = metaData;
+  const { author, timestamps, projects } = metaData;
 
   const stamps = timestamps.reduce((acc, cur) => {
     return {
@@ -30,6 +31,7 @@ const About: React.FC<AboutProps> = ({ location, data }) => {
     <Layout location={location}>
       <Seo title='개발자 김건우 | Portfolio' />
       <MainBanner author={author} />
+      <ProjectSection projects={projects} />
     </Layout>
   );
 };
@@ -67,6 +69,19 @@ export const pageQuery = graphql`
           kr
           info
           link
+        }
+        projects {
+          title
+          description
+          techStack
+          thumbnailUrl
+          links {
+            post
+            github
+            demo
+            googlePlay
+            appStore
+          }
         }
       }
     }

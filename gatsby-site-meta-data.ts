@@ -106,9 +106,22 @@ export default {
   projects: [
     {
       title: 'Portfolio',
-      description: '포트폴리오',
+      description: '포트폴리오1',
       techStack: ['React', 'Next.js', 'Typescript'],
-      thumbnailUrl: '', // Path to your in the 'assets' folder
+      thumbnailUrl: 'venom-controller.png', // Path to your in the 'assets' folder
+      links: {
+        post: '1',
+        github: '1',
+        demo: '1',
+        googlePlay: '',
+        appStore: '',
+      },
+    },
+    {
+      title: 'Portfolio',
+      description: '포트폴리오2',
+      techStack: ['React', 'Next.js', 'refine'],
+      thumbnailUrl: 'venom-controller.png', // Path to your in the 'assets' folder
       links: {
         post: '1',
         github: '1',
