@@ -48,6 +48,10 @@ export default {
       title: 'Frontend',
       category: 'Frontend',
     },
+    {
+      title: 'Career',
+      category: 'Career',
+    },
   ],
 
   /**
