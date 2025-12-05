@@ -56,6 +56,7 @@ export type Social = {
   github: string;
   linkedIn: string;
   resume: string;
+  portfolio: string;
 };
 
 export type Post = {

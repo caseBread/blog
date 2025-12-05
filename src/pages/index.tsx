@@ -81,6 +81,7 @@ export const pageQuery = graphql`
             github
             linkedIn
             resume
+            portfolio
           }
           dropdown {
             velog

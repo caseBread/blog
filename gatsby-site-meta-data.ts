@@ -33,6 +33,7 @@ export default {
       github: `https://github.com/caseBread`,
       linkedIn: `https://www.linkedin.com/in/quw/`,
       resume: `https://drive.google.com/file/d/1NwWOXW4zOFzW8_8-ALDOY_d7c2AlcK84/view?usp=sharing`,
+      portfolio: `https://lace-arithmetic-e7e.notion.site/2c0670f2330380cbbe95e25b2f904f8d?source=copy_link`,
     },
     dropdown: {
       tistory: 'https://ohoweht.tistory.com/',
