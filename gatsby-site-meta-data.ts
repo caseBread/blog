@@ -32,7 +32,7 @@ export default {
     social: {
       github: `https://github.com/caseBread`,
       linkedIn: `https://www.linkedin.com/in/quw/`,
-      resume: `https://drive.google.com/file/d/1NwWOXW4zOFzW8_8-ALDOY_d7c2AlcK84/view?usp=sharing`,
+      resume: `https://drive.google.com/file/d/1xUj4z9Yfe41D14RuwS0eCy7vr62A6ZKX/view?usp=sharing`,
       portfolio: `https://lace-arithmetic-e7e.notion.site/2c0670f2330380cbbe95e25b2f904f8d?source=copy_link`,
     },
     dropdown: {
