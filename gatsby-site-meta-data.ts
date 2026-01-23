@@ -77,10 +77,10 @@ export default {
     },
     {
       category: 'Activity',
-      date: '2025.06 - 2025.08',
-      en: 'KUSITHMS',
+      date: '2025.06 - ING',
+      en: 'KUSITMS',
       kr: '한국대학생IT경영학회',
-      info: '32기 프론트엔드 개발자로 참여',
+      info: '32기 프론트엔드 개발자 참여, 33기 운영진 참여',
       link: 'https://www.kusitms.com/',
     },
     {
@@ -88,7 +88,7 @@ export default {
       date: '2025.06 - 2025.08',
       en: 'DND',
       kr: '개발자와 디자이너를 위한 계속해서 성장하는 IT비영리단체',
-      info: '13기 프론트엔드 개발자로 참여',
+      info: '13기 프론트엔드 개발자ㄴ 참여',
       link: 'https://dnd.ac/',
     },
     {
